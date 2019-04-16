@@ -1,0 +1,12 @@
+.prefooter {
+	clear: both;
+	background-color: #fff;
+	background-repeat: repeat-x;
+	padding: 0.5em;
+	color: #666;
+	margin-top: 1em;
+}
+.card {
+	background-color: #f2f2f2;
+	border: none;
+}
