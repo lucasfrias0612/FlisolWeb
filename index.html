@@ -25,10 +25,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 	<!--CSS Propio-->
-	<link rel="StyleSheet" href="./res/miestilo.css" type="text/css" media="screen">
+	<style>
+		.cardModified {
+			background-color: #f2f2f2;
+			border: none;
+		}
+	</style>
 
 	<!--JS Propio-->
-	<script src="./res/code.js"></script>
+	<script src="./res/script.js"></script>
 
 	<!--Icono-->
 	<link rel="icon" type="image/png" href="./res/sol_flisol.png" />
@@ -40,8 +45,8 @@
 	</div>
 
 	<div class="page-header" style="background-color: #f2f2f2">
-		<img class="mr-3" src="./res/unpaz.png" width="15%" alt="Logotipo Unpaz">
-		<img class="mr-3" src="./res/flisol.png" width="15%" alt="Logotipo Flisol">
+		<img class="mr-3" src="./res/unpaz.png" alt="Logotipo Unpaz" style="width:15%">
+		<img class="mr-3" src="./res/flisol.png" alt="Logotipo Flisol" style="width:15%">
 		<span class="badge badge-info">Sábado 27 de abril de 12 a 18 horas. ¡No olvides preinscribirte!</span>
 	</div>
 
@@ -72,15 +77,9 @@
 	</nav>
 
 	<div style="margin-top:2%; padding:1%; background-color: #f2f2f2" id="contenido">
-		<style scoped>
-			.card {
-				background-color: #f2f2f2;
-				border: none;
-			}
-		</style>
 		<div class="row">
 			<div class="col-sm-6">
-				<div class="card">
+				<div class="card cardModified">
 					<div class="card-body">
 						<h3 class="card-title">¿Qué es el flisol?</h3>
 						<p class="card-text">Es el <strong>Festival Latinoamericano de Instalación de Software
@@ -91,7 +90,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="card">
+				<div class="card cardModified">
 					<div class="card-body">
 						<h3 class="card-title">¿Qué se hace ese día?</h3>
 						<ul>
@@ -104,7 +103,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="card">
+				<div class="card cardModified">
 					<div class="card-body">
 						<h3>¿Qué es el software libre?</h3>
 						<p>Es el software que brinda al usuario/a cuatro libertades:</p>
@@ -118,7 +117,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="card">
+				<div class="card cardModified">
 					<div class="card-body">
 						<h3>¿Por qué usar software libre?</h3>
 						<ul>
@@ -131,7 +130,7 @@
 				</div>
 			</div>
 			<div class="col-sm-6">
-				<div class="card">
+				<div class="card cardModified">
 					<div class="card-body">
 						<h3>¿Qué se puede hacer con software libre?</h3>
 						<p>El próximo 27 de abril te vamos a mostrar que con Software Libre se pueden hacer animaciones,
@@ -145,13 +144,15 @@
 	</div>
 
 	<div class="row">
-		<div class="col-sm-6">
-			<p style="padding-left:2%; padding-top: 1%"><strong>Coordinación de sede:</strong> Iris Fernández.</p>
+		<div class="col-sm-4">
+			<p style="padding-left:2%; padding-top: 1%"><strong>Coordinación de sede: </strong>Iris Fernández.</p>
 		</div>
-		<div class="col-sm-6">
-			<p style="padding-left:2%; padding-top: 1%"><strong>Organización: </strong> Fernando Peirone
+		<div class="col-sm-4">
+			<p style="padding-left:2%; padding-top: 1%"><strong>Organización: </strong>Fernando Peirone
 		</div>
-		</p>
+		<div class="col-sm-4">
+			<p style="padding-left:2%; padding-top: 1%"><strong>Maquetación Web: </strong>Lucas Frías
+		</div>
 	</div>
 
 	<div class="page-footer" style="background-color: #107aa3">
