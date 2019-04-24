@@ -77,6 +77,6 @@ function loadColaboradores() {
     "<div class=\"card-body\"><h4 class=\"card-title\">Fernando Corinaldesi</h4><p class=\"card-text\">Técnico reparador de PC. Estudiante avanzado de Analista Programador Universitario en UNPAZ</p>"+
     "</div></div></div></div></div></div><div class=\"col-sm-6\"><h3>Acreditación</h3><div class=\"row\"><div class=\"col-sm-6\"><div class=\"card\" style=\"width: 18rem;\">"+
     "<div class=\"card\" style=\"width: 18rem;\"><img src=\"./res/mariazelaya.jpg\" class=\"card-img-top\" alt=\"Fernando Corinaldesi\"><div class=\"card-body\">"+
-    "<h4 class=\"card-title\">María Zelaya</h4><p class=\"card-text\">Estudiante avanzada de la Tecnicatura en Gestión de Gobierno Electrónico y de la Licenciatura en Gestión Gubernamental (Unpaz)</p>"+
+    "<h4 class=\"card-title\">Maira Zelaya</h4><p class=\"card-text\">Estudiante avanzada de la Tecnicatura en Gestión de Gobierno Electrónico y de la Licenciatura en Gestión Gubernamental (Unpaz)</p>"+
     "<p>Ayudante de la materia \"Tecnologías digitales, públicas y abiertas\"</p></div></div></div></div></div></div></div>";
 }
