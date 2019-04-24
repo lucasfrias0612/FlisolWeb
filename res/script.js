@@ -2,12 +2,12 @@ window.onload = function () {
     var preinscripcion = document.getElementById("preinscripcion");
     var talleresCharlas = document.getElementById("talleresCharlas");
     var disertantes = document.getElementById("disertantes");
-    var instaladores = document.getElementById("instaladores");
+    var colaboradores = document.getElementById("colaboradores");
 
     preinscripcion.addEventListener("click", loadPreinscripcion);
     talleresCharlas.addEventListener("click", loadTalleresCharlas);
     disertantes.addEventListener("click", loadDisertantes);
-    instaladores.addEventListener("click", loadInstaladores);
+    colaboradores.addEventListener("click", loadColaboradores);
 }
 
 function loadPreinscripcion() {
@@ -68,10 +68,15 @@ function loadDisertantes() {
     "<p><strong>Redes: </strong><a href=\"https://www.linkedin.com/in/jos%C3%A9-guerra-prado-54762916\">Perfil de Linkedin</a></p></div></div></div></div></div>";
 }
 
-function loadInstaladores() {
-    document.getElementById("contenido").innerHTML = "<div class=\"row\"><div class=\"col-sm-3\"><div class=\"card\" style=\"width: 18rem;\"><img src=\"./res/lucasfrias.jpeg\" class=\"card-img-top\" alt=\"Lucas Frías\">"+
-    "<div class=\"card-body\"><h4 class=\"card-title\">Lucas Frías</h4><p class=\"card-text\">Estudiante avanzado de Analista Programador Universitario en UNPAZ</p><p><strong>Redes: </strong><a href=\"https://www.linkedin.com/in/lucas-frías-516268130\">Perfil de Linkedin</a></p>"+
-    "</div></div></div><div class=\"col-sm-3\"><div class=\"card\" style=\"width: 18rem;\"><div class=\"card\" style=\"width: 18rem;\">"+
-    "<img src=\"./res/fernandocorinaldesi.jpg\" class=\"card-img-top\" alt=\"Fernando Corinaldesi\"><div class=\"card-body\"><h4 class=\"card-title\">Fernando Corinaldesi</h4>"+
-    "<p class=\"card-text\">Técnico reparador de PC. Estudiante avanzado de Analista Programador Universitario en UNPAZ</p></div></div></div></div></div>";
+function loadColaboradores() {
+    document.getElementById("contenido").innerHTML = "<div class=\"row\"><div class=\"col-sm-6\"><div class=\"row\"><div class=\"col-sm-10\">"+
+    "<h3 style=\"text-align:center\">Instaladores</h3></div></div><div class=\"row\"><div class=\"col-sm-6\"><div class=\"card\" style=\"width: 18rem;\"><img src=\"./res/lucasfrias.jpeg\" class=\"card-img-top\""+
+    "alt=\"Lucas Frías\"><div class=\"card-body\"><h4 class=\"card-title\">Lucas Frías</h4><p class=\"card-text\">Estudiante avanzado de Analista Programador Universitario en UNPAZ"+
+    "</p><p><strong>Redes: </strong><a href=\"https://www.linkedin.com/in/lucas-frías-516268130\">Perfil de Linkedin</a></p></div></div></div><div class=\"col-sm-6\">"+
+    "<div class=\"card\" style=\"width: 18rem;\"><div class=\"card\" style=\"width: 18rem;\"><img src=\"./res/fernandocorinaldesi.jpg\" class=\"card-img-top\" alt=\"Fernando Corinaldesi\">"+
+    "<div class=\"card-body\"><h4 class=\"card-title\">Fernando Corinaldesi</h4><p class=\"card-text\">Técnico reparador de PC. Estudiante avanzado de Analista Programador Universitario en UNPAZ</p>"+
+    "</div></div></div></div></div></div><div class=\"col-sm-6\"><h3>Acreditación</h3><div class=\"row\"><div class=\"col-sm-6\"><div class=\"card\" style=\"width: 18rem;\">"+
+    "<div class=\"card\" style=\"width: 18rem;\"><img src=\"./res/mariazelaya.jpg\" class=\"card-img-top\" alt=\"Fernando Corinaldesi\"><div class=\"card-body\">"+
+    "<h4 class=\"card-title\">María Zelaya</h4><p class=\"card-text\">Estudiante avanzada de la Tecnicatura en Gestión de Gobierno Electrónico y de la Licenciatura en Gestión Gubernamental (Unpaz)</p>"+
+    "<p>Ayudante de la materia \"Tecnologías digitales, públicas y abiertas\"</p></div></div></div></div></div></div></div>";
 }
